@@ -1,0 +1,637 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    border: 1px solid red;
+    
+}
+#logo{
+    width:100%;
+   
+}
+#logo img{
+    width: 35%;
+    height: auto;
+}
+
+#navbar{
+    
+    display:flex;
+    flex-wrap: wrap;
+}
+#navbar nav ul{
+    display: flex;
+    padding: 10px;
+}
+#navbar nav ul li{
+    margin: 10px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgba(38, 207, 195, 0.745);
+}
+#herosection img{
+    width: 100%;
+    opacity:0px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxSU5b8kyGS_--We7rULR7m2MyWBz78kq-hw&s);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#services{
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+#servH{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    font-size: xx-large;
+
+}
+#serviceCommer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+    text-align: center;
+    
+}
+.service_cart{
+   width: 47%;
+   margin:3px 3px;
+   border: 1px solid black;
+   
+}
+
+.service_cart h4{
+    font-size: x-large;
+    color: rgb(255, 0, 0);
+}
+#experience{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#aboutImg{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:15px;
+    margin-left: 10px;
+}
+#abimg1{
+    width: 68%;
+    /* height: auto; */
+    margin: 10px 80% 20% 0.5%;
+    border-radius: 10%;
+}
+#abimg{
+   width: 100%;
+    width: 55%;
+    margin:-32% 0% 10% 33%;
+    border-radius: 10%;
+}
+#About{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    width: 100%;
+  
+}
+#About img{
+    width: 10%;
+    margin-left: 2%;
+}
+#About p{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px 0px 0px 10px;
+    color: rgb(24, 35, 155);
+}
+#About div h1{
+    width: 100%;
+    font-size: xx-large;
+    color: black;
+    word-spacing: 1px;
+    margin-top: 3%;
+}
+#About div p{
+    font-size: large;
+    word-spacing: 2.5%;
+    text-align:left;
+    margin: 6%;
+    line-height: 25px;
+
+}
+#aboutP {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+#aboutP img{
+    width: 20%;
+     
+    border-radius: 5%;
+    margin-left: 10px;
+}
+#aboutP ol li{
+   
+   /* padding-left: 20px; */
+   font-size: large;
+   color: black;
+   margin: right -20%;  
+}
+#list {
+  
+    margin-left: 6%;
+    width: 40%;  
+    font-weight: bolder; 
+    font-size: medium;
+}
+#About button{
+    background: blue;
+    text-align: center;
+    padding: 15px;
+   margin-left: 40%;
+   margin-top: 10px;
+    color: aliceblue;
+    border-radius: 20%;
+}
+
+
+#courses{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+#courses h1{
+    width: 100%;
+    margin: 7%;
+    justify-content: center;
+}
+.Cimg{
+    margin-top: 25px;
+}
+#courses div img{
+    border-radius: 10%;
+    margin-left: 14%;
+}
+.Ch2 {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+}
+#courses div p{
+     word-spacing: 8px ;
+     font-size: larger;
+  text-align: center;
+
+}
+#courses  div button{
+    padding: 10px;
+    background: #d9060683;
+    color: white;
+    border-radius: 4%;
+} 
+
+.courseImg{
+   width: 70%;
+}
+
+#askQ{
+    height: 300px;
+    width: auto;
+    background: #0cb3d04a;
+    margin: 6%;
+    border-radius: 5%;
+    justify-content: space-around;
+    padding:8%;
+}
+#askQ input{
+    height: 33px;
+    width: 80%;
+    margin-top: 10px;
+  
+}
+#askQ select{
+    height: auto;
+    width: 80%;
+    margin-top:5px;
+}
+
+#question{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.854);
+    color: white;
+   
+}
+#question div h1{
+    
+    width: 100%;
+    margin-top:10% ;
+    margin-bottom: 10%;
+     text-align: center;
+
+}
+.freQ h3{
+    width: 100%;
+    padding: 4%;
+    background-color: rgba(172, 90, 8, 0.25);
+    color: rgb(240, 231, 231);
+    margin: 4%;
+    border-radius: 4%;
+}
+#form{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(227, 133, 10, 0.389);
+    border-radius: 20%;
+    justify-content: center;
+}
+#form input{
+    display: block;
+    justify-content: space-evenly;
+    font-size: x-large;
+    margin: 2%;
+    width: 80%;
+
+}
+#form select{
+    display: block;
+    justify-content: space-evenly;
+    font-size: x-large;
+    width: 100%;  
+}
+#form button{
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(50, 50, 243, 0.602);
+    border:none;
+    padding: 10px;
+    width: 60%;
+    margin:  10% 50% 0% 0%;
+}
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+     background-color: rgba(17, 17, 22, 0.911);
+     color:white;
+     width: 100%;
+     height: auto;
+     margin-top:1px ;
+}
+#fot1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+
+}
+#fot1 img{
+     width: 35%;
+     margin-bottom: 7%;
+     margin-left: 10px;
+}
+
+#fotp{
+    width: 50%;
+    padding: 30px;
+    word-spacing: 7%;
+    text-align:right;
+    margin: -5% 2% 0px 8%;
+
+ }
+
+ #iconF{
+   display: inline-flex;
+    width: 70%;
+    height: auto;
+      margin-top: 10px;
+      margin-left: 4%;
+    padding: 12px;
+    font-size:25px;
+    justify-content:space-between ;
+    
+ }
+ #courseF{
+    display: block;
+     margin-top: 20px;
+    margin-left: 20px;
+
+ }
+   #courseF h1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+       
+        margin-bottom: 10px;
+        text-decoration: underline blue ;
+   
+
+   }
+    #courseF ul li{
+        
+        font-size:large;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    #contaF{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 10%;
+       
+    }
+
+   #contaF h1{
+     text-decoration: underline blue ;
+   }
+    #contactF {
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+     .iconF{
+        width: 20%;
+        padding: 10px;
+        display: block;
+      text-align: center;
+       padding: 3%;
+       font-size:large;
+     }
+
+     .pF{
+        display: block;
+        width: 70%;
+         padding: 3%;
+         font-size:larger;
+     }
+/* #footer div i{
+    display:flex;
+    flex-wrap:wrap ;
+    /* margin-top: 4%; */
+    
+    /* border-radius: 2%;
+    width: 100%; */
+    /* padding: 6%; */
+
+
+#Newsletter{
+    width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+
+ }
+#Newsletter h1{
+       width: 100%;
+       
+        margin-top: 7%; 
+            margin-bottom: 10px;
+      text-decoration: underline blue ;
+}
+#Newsletter p{
+    text-align: center;
+      height: 5vh;
+    font-size: larger;
+    word-spacing: 10px;
+    line-height: 2%;
+    margin: 30px 0px 30px 10px;
+}
+#Newsletter input{
+    width: 60%;
+     display:block ;
+    color: black;
+    padding: 15px;
+   border-radius: 5%;
+   margin-left: 8%;
+   text-align: center;
+   font-size: larger;
+}
+#subs{
+    background-color: rgb(42, 42, 193);
+    margin-top: 5px;
+    color: white;
+    margin-top: 10px;
+}
+#copy{
+    padding: 5%;
+    
+    background: rgba(24, 24, 81, 0.821);
+    color: white;
+    font-size: larger;
+}
+
+@media only screen and (min-width:957px){
+   #logo img{
+    width: 20%;
+    height: auto;
+}
+     #navbar nav ul{
+       display: flex;
+        padding: 10px;
+        justify-content: space-around;
+   }
+    #navbar nav ul li{
+          font-size: larger;
+        margin-right: 70px;
+   } 
+   
+    #serviceCommer{
+    height: 400px;
+    }
+
+ .service_cart img {
+   width: 20%;
+   margin:7px 7px;
+  }
+  .service_cart p{
+   width: 100%;
+   margin:3px 3px;
+   font-size: x-large;
+   }
+   .service_cart a{
+     font-size:larger ;
+     background: #000000a0;
+     color: white;
+   }
+   
+   #aboutImg{
+    width: 100%;
+    margin-top:15px;
+    margin-left: 10px;
+}
+#aboutImg div img{
+    width: 200px;
+    height: 100px;
+}
+#abimg1{
+    width: 80%;
+    margin-top: 10%;
+    height: auto;
+    margin-left: 16%;
+}
+#abimg{
+    width: 20%;
+    margin-left: 50%;
+}
+#About{
+    margin-top: -10%;
+}
+#About p{
+     margin-top: 50px;
+}
+
+#aboutHP h1{
+    text-align: center;
+}
+#aboutHP h3{
+
+      font-size: xx-large;
+}
+#list li{
+  
+    width: 70%;  
+    margin-bottom: 30px;
+    font-weight: bolder; 
+    font-size: xx-large;
+   
+}
+#About button{
+   
+    border-radius: 10%;
+} 
+
+#courses h1{
+   font-size: xx-large;
+    margin: 10% 0px 0px 40% ;
+    text-align: right;
+    text-decoration: underline overline;
+ 
+}
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.couU{
+    display: inline-flex;
+}
+
+ #courses div img{
+      width: 70%;
+   
+} 
+ #courses div button{
+          margin-left: 20%;
+           margin-top: 10px;
+}
+
+  #question {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 5%;
+  }
+
+  .freQ {
+    width: 40%;
+  }
+
+  .freQ h3 {
+    font-size: 1.2rem;
+  }
+
+  #askQ {
+    width: 45%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #askQ input,
+  #askQ select {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  #askQ h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  footer {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  #fot1 {
+    width: 25%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+
+  #fot1 img {
+    width: 80%;
+    margin-left: 0;
+  }
+
+  #fotP {
+    text-align: left;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  #iconF {
+    justify-content: flex-start;
+    gap: 15px;
+    margin-left: 0;
+  }
+
+  #courseF,
+  #contaF,
+  #Newsletter {
+    width: 20%;
+    margin-top: 0;
+  }
+
+  #courseF h1,
+  #contaF h1,
+  #Newsletter h1 {
+    font-size: xx-large;
+    margin-bottom: 15px;
+  }
+
+  #courseF ul li,
+  .pF p {
+    font-size: larger;
+  }
+
+  #Newsletter input[type="email"],
+  #Newsletter input[type="submit"] {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  #copy {
+    text-align: center;
+    font-size: 1rem;
+    padding: 20px;
+  }
+}
+
